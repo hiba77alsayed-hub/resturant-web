@@ -12,8 +12,8 @@ export default function Hero() {
                         Fresh ingredients, talented chefs and unforgettable taste.
                     </p>
 
-                    <button className="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-md font-medium">
-                        Discover Menu
+                    <button className="bg-blue-400 hover:bg-blue-300 px-8 py-6 rounded-md">
+                        View our Menu
                     </button>
 
                 </div>
