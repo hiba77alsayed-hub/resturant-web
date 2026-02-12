@@ -8,12 +8,12 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
                 {/* Logo */}
-                <div className="text-2xl font-bold text-red-600">
+                <div className="text-3xl font-bold text-red-600">
                     Klassy
                 </div>
 
                 {/* Desktop Links */}
-                <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
+                <ul className="hidden md:flex gap-8 text-gray-700 text-lg font-semibold">
                     <li className="hover:text-red-600 cursor-pointer">Home</li>
                     <li className="hover:text-red-600 cursor-pointer">About</li>
                     <li className="hover:text-red-600 cursor-pointer">Menu</li>
@@ -34,12 +34,12 @@ export default function Navbar() {
             {/* Mobile Menu */}
             {open && (
                 <div className="md:hidden bg-white px-6 pb-4">
-                    <ul className="flex flex-col gap-4 text-gray-700 font-medium">
-                        <li className="hover:text-red-600">Home</li>
-                        <li className="hover:text-red-600">About</li>
-                        <li className="hover:text-red-600">Menu</li>
-                        <li className="hover:text-red-600">Chefs</li>
-                        <li className="hover:text-red-600">Contact</li>
+                    <ul className="flex flex-col items-center gap-4 text-gray-700 font-medium">
+                        <li className="hover:text-red-600 cursor-pointer ">Home</li>
+                        <li className="hover:text-red-600 cursor-pointer">About</li>
+                        <li className="hover:text-red-600 cursor-pointer">Menu</li>
+                        <li className="hover:text-red-600 cursor-pointer">Chefs</li>
+                        <li className="hover:text-red-600 cursor-pointer">Contact</li>
                     </ul>
                 </div>
             )}

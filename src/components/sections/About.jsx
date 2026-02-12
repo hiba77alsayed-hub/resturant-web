@@ -14,7 +14,7 @@ export default function About() {
 
                 {/* Content */}
                 <div className="md:w-1/2">
-                    <h2 className="text-red-600 font-semibold mb-2">
+                    <h2 className="text-red-600 font-semibold mb-4 text-2xl">
                         ABOUT US
                     </h2>
 
